@@ -1,4 +1,4 @@
-package Start;
+package start;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ public class Start_Window extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400, 200);
         setLocation(500, 300);
-        JButton start = new JButton("Start");
+        JButton start = new JButton("start");
         ActionListener Click = new Click_on_Start();
         start.setSize(100, 50);
         start.setForeground(Color.green);

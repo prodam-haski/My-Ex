@@ -1,4 +1,4 @@
-package Components.Elements.Elements;
+package components.elements;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,13 +13,13 @@ public class Snake extends Elements {
     public Snake(){
         dots=3;
         for (int i=0;i<dots;i++) {
-            x[i]=40-i*getSize_dot();
+            x[i]=40-i*getSizeDot();
             y[i]=40;
         }
-        load_SnakeImage();
+        loadSnakeImage();
     }
 
-    private void load_SnakeImage(){
+    private void loadSnakeImage(){
         ImageIcon iid=new ImageIcon("snake.png");
         dot=iid.getImage();
 

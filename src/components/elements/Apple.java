@@ -1,4 +1,4 @@
-package Components.Elements.Elements;
+package components.elements;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,12 +11,12 @@ public class Apple extends Elements{
     private Image apple;
 
     public Apple(){
-       create_Apple();
-       load_AppleImage();
+       createApple();
+       loadAppleImage();
     }
 
-    public void create_Apple(){ appleX=new Random().nextInt(38)* getSize_dot();
-        appleY=new Random().nextInt(36)*getSize_dot();
+    public void createApple(){ appleX=new Random().nextInt(38)* getSizeDot();
+        appleY=new Random().nextInt(36)*getSizeDot();
        /* for (int i=0;i<blocks;i++){
             if (appleX==wallX[i]&&appleX==wallY[i]){
                 create_Apple();
@@ -30,7 +30,7 @@ public class Apple extends Elements{
 
     }
 
-    private void load_AppleImage() {
+    private void loadAppleImage() {
         ImageIcon iia = new ImageIcon("Apple.png");
         apple = iia.getImage();
     }

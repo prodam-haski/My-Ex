@@ -1,4 +1,4 @@
-package Components.Elements.Elements;
+package components.elements;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,26 +15,26 @@ public class Wall extends Elements{
 
         int j=0;
         for (;j<39;j++) {
-            wallX[j] = j * getSize_dot();
+            wallX[j] = j * getSizeDot();
             wallY[j] = 0;
         }
         for (int i=1;j<74;i++,j++){
             wallX[j] = 0;
-            wallY[j] = i * getSize_dot();
+            wallY[j] = i * getSizeDot();
         }
         for (int i=1;j<109;i++,j++){
-            wallX[j] = 38 * getSize_dot();
-            wallY[j] = i * getSize_dot();
+            wallX[j] = 38 * getSizeDot();
+            wallY[j] = i * getSizeDot();
         }
         for (int i=1;j<146;i++,j++){
-            wallY[j] = 35 * getSize_dot();
-            wallX[j] = i * getSize_dot();
+            wallY[j] = 35 * getSizeDot();
+            wallX[j] = i * getSizeDot();
         }
-        load_BlockImage();
+        loadBlockImage();
         blocks=j;
     }
 
-    private void load_BlockImage(){
+    private void loadBlockImage(){
         ImageIcon iib=new ImageIcon("BLOCK.jpg");
         block=iib.getImage();
     }

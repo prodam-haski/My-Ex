@@ -1,7 +1,7 @@
-package Start;
+package start;
 
-import Components.Elements.Game_field;
-import Doing.Logical_Interface;
+import components.Game_field;
+import doing.Logical_Interface;
 
 import javax.swing.*;
 

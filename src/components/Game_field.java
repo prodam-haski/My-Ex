@@ -1,7 +1,6 @@
-package Components.Elements;
+package components;
 
-import Components.Elements.Elements.Apple;
-import Doing.Logical;
+import doing.Logical;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,6 +15,7 @@ public class Game_field extends JPanel implements ActionListener, Logical {
 
     public Game_field(){
 
+        addKeyListener(new MoveKeyListener());
         setBackground(Color.green);
         setFocusable(true);
         timer = new Timer(250,this);
@@ -32,7 +32,7 @@ public class Game_field extends JPanel implements ActionListener, Logical {
     @Override
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        if(in_game){
+        if(game.getInGame()){
             g.drawImage(apple.getAppleImage(),apple.getAppleX(),apple.getAppleY(),this);
             for (int i=0;i<snake.getDots();i++){
                 g.drawImage(snake.getSnakeImage(),snake.getX(i),snake.getY(i),this);
@@ -60,6 +60,34 @@ public class Game_field extends JPanel implements ActionListener, Logical {
                // in_game=true;
                 repaint();
                 //Main_Window restart = new Main_Window();
+            }
+        }
+    }
+
+    class MoveKeyListener extends KeyAdapter {
+        @Override
+        public void keyPressed(KeyEvent e){
+            super.keyPressed(e);
+            int key=e.getKeyCode();
+            if(key==KeyEvent.VK_LEFT && !move.getRight()){
+                move.setLeft(true);
+                move.setUp(false);
+                move.setDown(false);
+            }
+            if(key==KeyEvent.VK_RIGHT && !move.getLeft()){
+                move.setRight(true);
+                move.setUp(false);
+                move.setDown(false);
+            }
+            if(key==KeyEvent.VK_UP && !move.getDown()){
+                move.setUp(true);
+                move.setLeft(false);
+                move.setRight(false);
+            }
+            if(key==KeyEvent.VK_DOWN && !move.getUp()){
+                move.setDown(true);
+                move.setLeft(false);
+                move.setRight(false);
             }
         }
     }
