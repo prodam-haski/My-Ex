@@ -14,7 +14,7 @@ public class Wall extends Elements{
         //blocks=new Random().nextInt(20)*5;
 
         int j=0;
-        for (;j<39;j++) {
+        for (;j<getSize()/10-1;j++) {
             wallX[j] = j * getSizeDot();
             wallY[j] = 0;
         }

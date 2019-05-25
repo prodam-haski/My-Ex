@@ -8,17 +8,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Logical_Interface extends JPanel implements ActionListener, Logical {
+public class LogicalIml extends JPanel implements ActionListener, Logical {
 
     private Timer timer;
 
-    protected Apple apple=new Apple();;
-    protected Wall wall=new Wall();
-    protected Snake snake=new Snake();
-
-    public Logical_Interface(){
 
 
+    public LogicalIml(){
         timer = new Timer(250,this);
         timer.start();
         setVisible(true);

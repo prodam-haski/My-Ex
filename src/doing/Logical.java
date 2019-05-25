@@ -10,14 +10,14 @@ public interface Logical {
     Wall wall=new Wall();
     Snake snake=new Snake();
     Moving move=new Moving();
-    In_Game game=new In_Game();
+    InGame game=new InGame();
     Checking check=new Checking();
 
- class In_Game{
-     private boolean in_game=true;
+ class InGame {
+     private boolean inGame=true;
 
-     public void setInGame(boolean value){in_game=value; }
-     public boolean getInGame(){return in_game;}
+     public void setInGame(boolean value){inGame=value; }
+     public boolean getInGame(){return inGame;}
  }
 
 
@@ -44,6 +44,12 @@ public interface Logical {
             if (down) {
                 snake.setY(0, snake.getY(0) + 10);
             }
+        }
+        public void newMoving(){
+            right=true;
+            left=false;
+            up=false;
+            down=false;
         }
 
         public void setLeft ( boolean value){
@@ -72,6 +78,12 @@ public interface Logical {
                 snake.increment();
                 apple.createApple();
             }
+
+        for (int i=0;i<wall.getBlocks();i++){
+            if (apple.getAppleX()==wall.getWallX(i)&&apple.getAppleY()==wall.getWallY(i)){
+                apple.createApple();
+            }
+        }
         }
 
         public void checkCrash(){

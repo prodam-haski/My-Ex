@@ -9,16 +9,16 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class Game_field extends JPanel implements ActionListener, Logical {
+public class GameField extends JPanel implements ActionListener, Logical {
 
     private Timer timer;
 
-    public Game_field(){
+    public GameField(){
 
         addKeyListener(new MoveKeyListener());
         setBackground(Color.green);
         setFocusable(true);
-        timer = new Timer(250,this);
+        timer = new Timer(100,this);
         timer.start();
     }
 
@@ -57,9 +57,11 @@ public class Game_field extends JPanel implements ActionListener, Logical {
             int key = e.getKeyCode();
             if (key == KeyEvent.VK_SPACE) {
                 removeAll();
-               // in_game=true;
+                game.setInGame(true);
+                snake.newSnake();
+                move.newMoving();
                 repaint();
-                //Main_Window restart = new Main_Window();
+
             }
         }
     }
