@@ -4,13 +4,9 @@ import components.elements.Apple;
 import components.elements.Snake;
 import components.elements.Wall;
 import doing.timescore.Score;
+import doing.timescore.Score2;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-public interface Logical extends Score {
-
+public interface Logical2 extends Score2 {
     Apple apple=new Apple();;
     Wall wall=new Wall();
     Snake snake=new Snake();
@@ -18,15 +14,15 @@ public interface Logical extends Score {
     InGame game=new InGame();
     Checking check=new Checking();
 
- class InGame {
-     private boolean inGame=true;
+    class InGame {
+        private boolean inGame=true;
 
-     public void setInGame(boolean value){inGame=value; }
-     public boolean getInGame(){return inGame;}
- }
+        public void setInGame(boolean value){inGame=value; }
+        public boolean getInGame(){return inGame;}
+    }
 
 
- class Moving {
+    class Moving {
         private boolean right= true;
         private boolean left;
         private boolean up;
@@ -79,27 +75,27 @@ public interface Logical extends Score {
     class Checking  {
 
 
-     public void checkApple(){
+        public void checkApple(){
             if(snake.getX(0)==apple.getAppleX()&&snake.getY(0)==apple.getAppleY()){
                 snake.increment();
                 apple.createApple();
                 score.incrementScore();
             }
 
-        for (int i=0;i<wall.getBlocks();i++){
-            if (apple.getAppleX()==wall.getWallX(i)&&apple.getAppleY()==wall.getWallY(i)){
-                apple.createApple();
+            for (int i=0;i<wall.getBlocks();i++){
+                if (apple.getAppleX()==wall.getWallX(i)&&apple.getAppleY()==wall.getWallY(i)){
+                    apple.createApple();
+                }
             }
         }
-     }
 
-     public void checkScore() {
-         if (score.getScore() == score.getProgress()) {
-             time.changeTiming();
-             score.incrementScore();
-             score.incrementScore();
-         }
-     }
+        public void checkScore() {
+            if (score.getScore() == score.getProgress()) {
+                time.changeTiming();
+                score.incrementScore();
+                score.incrementScore();
+            }
+        }
 
         public void checkCrash(){
             for (int i=snake.getDots();i>0;i--){
@@ -107,8 +103,6 @@ public interface Logical extends Score {
                     game.setInGame(false);
                 }
             }
-
-
             for (int i=0;i<wall.getBlocks();i++){
                 if(snake.getX(0)==wall.getWallX(i)&&snake.getY(0)==wall.getWallY(i)){
                     game.setInGame(false);
@@ -116,5 +110,4 @@ public interface Logical extends Score {
             }
         }
     }
-
 }

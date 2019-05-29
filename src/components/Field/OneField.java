@@ -1,4 +1,4 @@
-package components;
+package components.Field;
 
 import doing.Logical;
 
@@ -9,61 +9,14 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class GameField extends JPanel implements ActionListener, Logical {
-
+public class OneField extends JPanel implements Logical, ActionListener {
     private Timer timer;
-
-    public GameField(){
-
+    public OneField(){
         addKeyListener(new MoveKeyListener());
         setBackground(Color.green);
         setFocusable(true);
-        timer = new Timer(100,this);
+        timer = new Timer(time.getTiming(),this);
         timer.start();
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-        repaint();
-    }
-
-
-    @Override
-    public void paintComponent(Graphics g){
-        super.paintComponent(g);
-        if(game.getInGame()){
-            g.drawImage(apple.getAppleImage(),apple.getAppleX(),apple.getAppleY(),this);
-            for (int i=0;i<snake.getDots();i++){
-                g.drawImage(snake.getSnakeImage(),snake.getX(i),snake.getY(i),this);
-            }
-            for (int i=0;i<wall.getBlocks();i++){
-                g.drawImage(wall.getWallImage(),wall.getWallX(i),wall.getWallY(i),this);
-            }
-        }
-        else{
-            String str="Game over. Press Space";
-            g.setColor(Color.red);
-            g.drawString(str,120,400/3);
-            addKeyListener(new ClickKeyListener());
-
-        }
-    }
-
-    class ClickKeyListener extends KeyAdapter {
-        @Override
-        public void keyPressed(KeyEvent e) {
-            super.keyPressed(e);
-            int key = e.getKeyCode();
-            if (key == KeyEvent.VK_SPACE) {
-                removeAll();
-                game.setInGame(true);
-                snake.newSnake();
-                move.newMoving();
-                repaint();
-
-            }
-        }
     }
 
     class MoveKeyListener extends KeyAdapter {
@@ -93,4 +46,54 @@ public class GameField extends JPanel implements ActionListener, Logical {
             }
         }
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+        repaint();
+        timer.stop();
+        timer = new Timer(time.getTiming(),this);
+        timer.start();
+    }
+
+
+    @Override
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        if(game.getInGame()){
+            g.drawImage(apple.getAppleImage(),apple.getAppleX(),apple.getAppleY(),this);
+            for (int i=0;i<snake.getDots();i++){
+                g.drawImage(snake.getSnakeImage(),snake.getX(i),snake.getY(i),this);
+            }
+
+            for (int i=0;i<wall.getBlocks();i++){
+                g.drawImage(wall.getWallImage(),wall.getWallX(i),wall.getWallY(i),this);
+            }
+        }
+        else{
+            String str="Game over. Press Space";
+            g.setColor(Color.red);
+            g.drawString(str,120,400/3);
+            addKeyListener(new ClickKeyListener());
+
+        }
+    }
+
+    class ClickKeyListener extends KeyAdapter {
+        @Override
+        public void keyPressed(KeyEvent e) {
+            super.keyPressed(e);
+            int key = e.getKeyCode();
+            if (key == KeyEvent.VK_SPACE) {
+                removeAll();
+                game.setInGame(true);
+                snake.newSnake();
+                move.newMoving();
+                score.newScore();
+                time.newTiming();
+                repaint();
+            }
+        }
+    }
+
 }

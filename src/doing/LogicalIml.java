@@ -15,7 +15,7 @@ public class LogicalIml extends JPanel implements ActionListener, Logical {
 
 
     public LogicalIml(){
-        timer = new Timer(250,this);
+        timer = new Timer(time.getTiming(),this);
         timer.start();
         setVisible(true);
     }
@@ -26,8 +26,10 @@ public class LogicalIml extends JPanel implements ActionListener, Logical {
         move.moveSnake();
         check.checkApple();
         check.checkCrash();
+        check.checkScore();
+        timer.stop();
+        timer = new Timer(time.getTiming(),this);
+        timer.start();
         }
     }
-
-
 }

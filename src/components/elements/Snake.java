@@ -6,7 +6,7 @@ import java.awt.*;
 public class Snake extends Elements {
     private Image dot;
     private int dots;
-    private int[] x =new int [getAll()];
+    public int[] x =new int [getAll()];
     private int[] y =new int [getAll()];
 
     public Snake(){
