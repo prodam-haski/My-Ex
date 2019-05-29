@@ -2,31 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47feb78-b67e-4cbf-a80b-f35c9694bf93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Field/DoubleField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Field/OneField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/Logical2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/LogicalIml2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/timescore/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/timescore/Score2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/timescore/ScoreOfGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doing/timescore/Timing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/start/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start/TwoPlayers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Elements/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Elements/Elements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Elements/Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Elements/Wall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Game_field$ClickKeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Game_field$MoveKeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Components/Elements/Game_field.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$Checking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$Checking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$In_Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$InGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$InGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$Moving.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical$Moving.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/Logical_Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Start/Main_Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Start/Start_Window$Click_on_Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Start/Start_Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game_field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/Doing/LogicalIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/Doing/LogicalIml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/components/GameField$ClickKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/components/GameField$MoveKeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/components/GameField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/start/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/start/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/start/Size.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/start/Size.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/start/StartWindow$clickOnStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/start/StartWindow$clickOnStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My Ex/start/StartWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My Ex/start/StartWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameField.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/doing/Logical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doing/Logical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doing/Logical_Interface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/Main_Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/Start_Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doing/LogicalIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doing/LogicalIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/start/StartWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/start/StartWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,64 +40,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start/StartWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/Snake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/start/Size.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/GameField.java">
+        <entry file="file://$PROJECT_DIR$/src/components/Field/DoubleField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="119">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/Wall.java">
+        <entry file="file://$PROJECT_DIR$/src/components/Field/OneField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="100">
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding>
-                <element signature="method#Wall#0;class#Wall#0" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doing/Logical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doing/Logical2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,35 +85,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doing/LogicalIml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="34" column="1" selection-start-line="10" selection-start-column="24" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/doing/Logical.java">
+        <entry file="file://$PROJECT_DIR$/src/doing/LogicalIml2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/Elements.java">
+        <entry file="file://$PROJECT_DIR$/src/doing/timescore/Score.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="40" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/Apple.java">
+        <entry file="file://$PROJECT_DIR$/src/doing/timescore/Score2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/start/MainWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -169,28 +166,42 @@
         <option value="$PROJECT_DIR$/src/doing/Logical_Interface.java" />
         <option value="$PROJECT_DIR$/src/components/elements/Elements.java" />
         <option value="$PROJECT_DIR$/src/start/Start_Window.java" />
-        <option value="$PROJECT_DIR$/src/doing/LogicalIml.java" />
         <option value="$PROJECT_DIR$/src/start/Main_Window.java" />
         <option value="$PROJECT_DIR$/src/components/Game_field.java" />
-        <option value="$PROJECT_DIR$/src/start/Size.java" />
         <option value="$PROJECT_DIR$/src/components/elements/Snake.java" />
         <option value="$PROJECT_DIR$/src/components/elements/Apple.java" />
-        <option value="$PROJECT_DIR$/src/doing/Logical.java" />
         <option value="$PROJECT_DIR$/src/components/gameField.java" />
         <option value="$PROJECT_DIR$/src/start/startWindow.java" />
         <option value="$PROJECT_DIR$/src/start/mainWindow.java" />
-        <option value="$PROJECT_DIR$/src/start/StartWindow.java" />
         <option value="$PROJECT_DIR$/src/components/elements/Wall.java" />
-        <option value="$PROJECT_DIR$/src/start/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/doing/Score.java" />
+        <option value="$PROJECT_DIR$/src/doing/Timer.java" />
+        <option value="$PROJECT_DIR$/src/doing/timescore/ScoreofGame.java" />
+        <option value="$PROJECT_DIR$/src/doing/LogicalIml.java" />
+        <option value="$PROJECT_DIR$/src/doing/Logical.java" />
+        <option value="$PROJECT_DIR$/src/doing/timescore/Timing.java" />
+        <option value="$PROJECT_DIR$/src/doing/timescore/Score.java" />
+        <option value="$PROJECT_DIR$/src/doing/timescore/ScoreOfGame.java" />
+        <option value="$PROJECT_DIR$/src/start/Size.java" />
+        <option value="$PROJECT_DIR$/src/start/TwoPlayers.java" />
+        <option value="$PROJECT_DIR$/src/start/StartWindow.java" />
         <option value="$PROJECT_DIR$/src/components/GameField.java" />
+        <option value="$PROJECT_DIR$/src/components/elements/DoubleGameField.java" />
+        <option value="$PROJECT_DIR$/src/doing/timescore/Score2.java" />
+        <option value="$PROJECT_DIR$/src/doing/Logical2.java" />
+        <option value="$PROJECT_DIR$/src/doing/LogicalIml2.java" />
+        <option value="$PROJECT_DIR$/src/start/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/components/Field/GameField.java" />
+        <option value="$PROJECT_DIR$/src/components/Field/OneField.java" />
+        <option value="$PROJECT_DIR$/src/components/Field/DoubleField.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1370" />
-    <option name="height" value="745" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -200,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +240,21 @@
               <item name="My Ex" type="b2602c69:ProjectViewProjectNode" />
               <item name="My Ex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Field" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Ex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Ex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Ex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Ex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doing" type="462c0819:PsiDirectoryNode" />
+              <item name="timescore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="My Ex" type="b2602c69:ProjectViewProjectNode" />
@@ -243,13 +267,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558784264486" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559147904571" />
+    <property name="last_opened_file_path" value="E:/2 курс/4 семестр/КПП/лабы/lab1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -332,17 +357,27 @@
       <workItem from="1558779031331" duration="1657000" />
       <workItem from="1558780736320" duration="1777000" />
       <workItem from="1558782552254" duration="1774000" />
+      <workItem from="1558784362039" duration="1783000" />
+      <workItem from="1558786177116" duration="999000" />
+      <workItem from="1559106514060" duration="1571000" />
+      <workItem from="1559108178206" duration="1757000" />
+      <workItem from="1559110116099" duration="305000" />
+      <workItem from="1559110468412" duration="671000" />
+      <workItem from="1559111722544" duration="1543000" />
+      <workItem from="1559143878609" duration="1666000" />
+      <workItem from="1559145586285" duration="1798000" />
+      <workItem from="1559147551541" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14302000" />
+    <option name="totallyTimeSpent" value="26684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34026846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,8 +385,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -398,16 +433,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doing/Timer.java" />
     <entry file="file://$PROJECT_DIR$/src/components/elements/Elements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/DoubleGameField.java" />
+    <entry file="file://$PROJECT_DIR$/src/start/StartWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/elements/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="187">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="method#Wall#0;class#Wall#0" />
@@ -415,24 +476,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/Snake.java">
+    <entry file="file://$PROJECT_DIR$/src/start/TwoPlayers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/Apple.java">
+    <entry file="file://$PROJECT_DIR$/src/start/Size.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/doing/timescore/ScoreOfGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doing/timescore/Timing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doing/timescore/Logical2.java" />
+    <entry file="file://$PROJECT_DIR$/src/doing/Logical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doing/Logical2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -441,39 +524,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doing/LogicalIml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="34" column="1" selection-start-line="10" selection-start-column="24" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/start/Size.java">
+    <entry file="file://$PROJECT_DIR$/src/doing/LogicalIml2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/start/StartWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doing/Logical.java">
+    <entry file="file://$PROJECT_DIR$/src/doing/timescore/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GameField.java">
+    <entry file="file://$PROJECT_DIR$/src/doing/timescore/Score2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Field/GameField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Field/OneField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Field/DoubleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
